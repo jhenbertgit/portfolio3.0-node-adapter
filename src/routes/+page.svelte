@@ -5,9 +5,9 @@
 	import { isDarkMode } from '$lib/store';
 	import { quadInOut } from 'svelte/easing';
 	import { Metadata, Theme } from '$lib/components';
+	import { page } from '$app/stores';
+
 	import {
-		avatar,
-		fullname,
 		hello,
 		position,
 		statement,
@@ -15,7 +15,6 @@
 		buttonRight,
 		showRepository
 	} from '../../.data/home';
-	import { page } from '$app/stores';
 
 	export let data: PageData;
 

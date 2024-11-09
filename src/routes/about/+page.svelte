@@ -42,7 +42,7 @@
 	{#if mounted}
 		<div id="content" class="py-12" transition:fly={{ y: 100, delay: 1000 }}>
 			<div class="max-w-screen-md mx-auto p-5">
-				<img class="w-full rounded-lg" src={image} alt="" />
+				<img class="w-full rounded-lg" src={image} alt="img" />
 
 				<!-- INTRODUCTION SECTION -->
 				<section>
@@ -104,7 +104,7 @@
 				<h2 class="text-black dark:text-white mt-10 mb-2 text-2xl font-bold">About this website</h2>
 				<p class="mb-5 text-zinc-400">This website was built with the following stack</p>
 				<ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-					{#each stack as item}
+					{#each stack as item, index}
 						<li
 							class="flex flex-col border rounded
                         border-zinc-200 dark:border-zinc-700
@@ -112,7 +112,7 @@
                         "
 						>
 							<a class="p-5" href={item.href} target="_blank">
-								<img src={`images/about/${item.image}`} alt="" height={36} width={36} />
+								<img src={`images/about/${item.image}`} alt="img-{index}" height={36} width={36} />
 								<h5 class="font-bold my-2 text-black dark:text-white">
 									{item.name}
 								</h5>
@@ -123,7 +123,12 @@
 									<span class="text-sm text-zinc-600 dark:text-zinc-400 mr-2">
 										{item.hrefText}
 									</span>
-									<img height={8} width={8} alt="" src={$isDarkMode ? arrowDark : arrowLight} />
+									<img
+										height={8}
+										width={8}
+										alt="arrow-img"
+										src={$isDarkMode ? arrowDark : arrowLight}
+									/>
 								</div>
 							</a>
 						</li>

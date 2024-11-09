@@ -1,0 +1,9 @@
+# robots.txt for https://jhenbert.pro
+
+User-agent: *
+# Allow search engines to access all pages
+Disallow: /api/
+# Disallow specific directories (replace with actual sensitive directories if applicable)
+
+# Sitemap location
+Sitemap: https://jhenbert.pro/sitemap.xml

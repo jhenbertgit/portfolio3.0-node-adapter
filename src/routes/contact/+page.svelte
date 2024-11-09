@@ -266,7 +266,7 @@
 										<img
 											width={32}
 											height={32}
-											alt=""
+											alt="img-social"
 											src={$isDarkMode ? item.img.dark : item.img.light}
 										/>
 									</a>
@@ -283,7 +283,7 @@
 							{#each emails as email}
 								<li>
 									<a href={`mailto:${email.url}`} class="flex text-blue-600 hover:underline w-fit">
-										<img src={$isDarkMode ? emailDark : emailLight} alt="" class="mr-2" />
+										<img src={$isDarkMode ? emailDark : emailLight} alt="img-email" class="mr-2" />
 										{email.url}
 									</a>
 								</li>

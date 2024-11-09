@@ -22,7 +22,6 @@ export const skills: Skills = [
 	'Node JS',
 	'React',
 	'SQL',
-	'CSS',
 	'VSCode',
 	'Git',
 	'Github',
@@ -85,11 +84,11 @@ export const stack: Stack[] = [
 		image: 'appscript.png'
 	},
 	{
-		name: 'Vercel',
-		href: 'https://vercel.com',
-		hrefText: 'vercel.com',
-		desc: 'Your complete platform for the web. Vercel provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more personalized web.',
-		image: 'vercel.svg'
+		name: 'Coolify',
+		href: 'https://coolify.io/',
+		hrefText: 'coolify.io',
+		desc: 'An open-source & self-hostable Heroku / Netlify / Vercel alternative.',
+		image: 'coolify.png'
 	}
 ];
 

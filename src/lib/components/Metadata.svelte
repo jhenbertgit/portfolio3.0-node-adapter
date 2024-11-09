@@ -10,7 +10,7 @@
 	<meta name="description" content={meta.description} />
 	<meta
 		name="keywords"
-		content="Freelance full-stack developer, Full-stack web developer, Svelte developer, SvelteKit developer, TypeScript developer, Prisma ORM, MySQL developer, PostgreSQL developer, Web development projects, Personal projects, Backend development, Frontend development, Freelance developer for hire, Scalable web applications, Web app development, Full-stack freelance projects, API development, Full-stack developer with TypeScript, Svelte and TypeScript expert, MySQL/PostgreSQL expert, Portfolio, Jhenbert, Jhenbert Portfolio"
+		content="affordable web developer in the Philippines, SvelteKit developer portfolio in Davao, freelance web developer Davao portfolio, full-stack developer Philippines portfolio, Philippines-based Svelte developer, hire SvelteKit developer in Davao, SvelteKit developer Philippines, remote SvelteKit developer Philippines, affordable SvelteKit development Philippines"
 	/>
 	<meta name="author" content="Jhenbert" />
 	<!-- Open Graph - https://ogp.me/ -->
