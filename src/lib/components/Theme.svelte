@@ -45,6 +45,7 @@
 			: 'opacity-50'} hover:opacity-100 {$currentTheme === 'light'
 			? 'bg-zinc-200'
 			: 'bg-transparent'}"
+		aria-label="Theme Light"
 	>
 		<svg
 			fill={$isDarkMode ? 'white' : 'black'}
@@ -64,6 +65,7 @@
 			: 'opacity-50'} hover:opacity-100 {$currentTheme === 'dark'
 			? 'bg-zinc-800'
 			: 'bg-transparent'}"
+		aria-label="Theme Dark"
 	>
 		<svg
 			fill={$isDarkMode ? 'white' : 'black'}
@@ -85,6 +87,7 @@
 				? 'bg-zinc-800'
 				: 'bg-zinc-200'
 			: 'bg-transparent'}"
+		aria-label="Theme System"
 	>
 		<svg
 			fill={$isDarkMode ? 'white' : 'black'}
