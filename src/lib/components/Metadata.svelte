@@ -10,13 +10,13 @@
 	<meta name="description" content={meta.description} />
 	<meta
 		name="keywords"
-		content="affordable web developer in the Philippines, SvelteKit developer portfolio in Davao, freelance web developer Davao portfolio, full-stack developer Philippines portfolio, Philippines-based Svelte developer, hire SvelteKit developer in Davao, SvelteKit developer Philippines, remote SvelteKit developer Philippines, affordable SvelteKit development Philippines"
+		content="affordable web developer in the Davao, SvelteKit developer portfolio in Davao, freelance web developer Davao portfolio, full-stack developer Davao portfolio, Davao-based Svelte developer, hire SvelteKit developer in Davao, SvelteKit developer Davao, remote SvelteKit developer Davao, affordable SvelteKit development Davao"
 	/>
 	<meta name="author" content="Jhenbert" />
 	<!-- Open Graph - https://ogp.me/ -->
 	<meta property="og:site_name" content="Jhenbert's Portfolio Website" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://jhenbert.com{pathname}" />
+	<meta property="og:url" content="https://jhenbert.pro{pathname}" />
 	<meta property="og:locale" content="en_PH" />
 	<meta property="og:title" content={meta.title} />
 	<meta property="og:description" content={meta.description} />
